@@ -1,0 +1,4 @@
+sim: sim.cpp
+	g++ -g -Wall -Werror sim.cpp -o sim
+clean:
+	rm -f sim
